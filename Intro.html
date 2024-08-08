@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="./css/Local_bootstrap_copy.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="./css/Briefstyle.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #526D82;
+            height: 100vh;
+        }
+        #welcome-pg-btn:hover {
+            opacity: 50%;
+        }
+
+        #social-conntect:hover{
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="px-4 py-5 my-0 text-center">
+        <img class="d-flex mx-auto mb-4" src="./assets/images/Profile Pic.JPG" alt="Profile Impression" width="200" height="200"
+            style="border-radius: 50%;">
+        <h2 class="display-5 fw-semibold text-body-emphasis">Hey There!</h2>
+        <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4 jost-statement" style="padding-top: 50px;">I'm a novice at web development, currently
+                aiming to get skilled with the growing trends in the tech space to attain acceptance in the employment
+                market-place as a techno-functional consultant.</p>
+        </div>
+
+        <div class="container px-4 py-4" id="featured-3">
+            <h2 class="pb-2 fw-semibold" style="color: black;">My Profile</h2>
+            <div class="row g-4 pt-5 pb-3 row-cols-lg-3">
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3" onclick="location.href='./resume.html';" style="cursor: pointer;">
+                        <img src="./assets/SVG/Resume1.svg" alt="resume image" height="30px">
+                    </div>
+                    <h3 class="fs-3 text-body-emphasis">Resumé</h3>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"onclick="location.href='./Assignments.html';" style="cursor: pointer;">
+                        <img src="./assets/SVG/Assignment.svg" alt="Asignment image" height="30px">
+                    </div>
+                    <h3 class="fs-3 text-body-emphasis">Assignments</h3>
+                </div>
+                <div class="feature col">
+                    <div
+                        class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3"onclick="location.href='./Side Interests.html';" style="cursor: pointer;">
+                        <img src="./assets/SVG/hobby.svg" alt="resume image" height="30px">
+                    </div>
+                    <h3 class="fs-3 text-body-emphasis">Side Interests</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4"
+        style="border-top: 1px solid black;">
+        <div class="col-md-4 d-flex align-items-center">
+            <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Rajesh Sanghani</span>
+        </div>
+        
+        <img src="./assets/SVG/back-button.svg" id="welcome-pg-btn" alt="button" height="30px" onclick="location.href='./Profile Brefing.html';" style="cursor: pointer; border-radius: 50%;" title="Previous Page">
+    
+        <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="https://x.com/rajsanghani_200"><img id="social-conntect" src="./assets/SVG/x.svg"
+                        alt="twitter image" height="30px"></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="linkedin.com/in/rajesh-sanghani-31882b9a"><img id="social-conntect"
+                        src="./assets/SVG/Linkedin.svg" alt="linkedin image" height="30px"></a></li>
+        </ul>
+    </footer>
+</body>
+</html>

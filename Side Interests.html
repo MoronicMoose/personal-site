@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/Local_bootstrap_copy.css" rel="stylesheet">
+    <title>Side Interests</title>
+    <style>
+        body {
+            background-color: #9DB2BF;
+        }
+
+        .main-container {
+            display: grid;
+            height: 100vh;
+            /* justify-content: center; */
+            align-items: center;
+        }
+
+        .tile-image {
+            height: 200px;
+            width: 200px;
+            float: left;
+            margin-right: 50px;
+        }
+
+        .left {
+            display:flex;
+            float: left;
+            align-items: center;
+        }
+
+        body > .container2{
+          position: fixed;
+          left: 94%;
+        }
+
+        .container2 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          color: black;
+          text-align: center;
+          padding: 1%;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+          /* Position the tooltip */
+          position: absolute;
+        }
+        .container2 > img:hover{
+            opacity: 50%;
+        }
+        .container2:hover .tooltiptext{
+          visibility: visible;
+          opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="pt-4 container2">
+        <span class="tooltiptext">Previous Page</span>
+        <img src="./assets/SVG/caret-left.svg" id="prv-pg" alt="previous page" height="100px"
+            onclick="location.href='./Intro.html';" style="cursor: pointer;">
+    </span>
+
+    <div class="main-container">
+        <div class="left">
+            <img class="tile-image" src="./assets/SVG/Instrumental renditioner (Edited).svg" alt="Musical Interest img">
+            <p class="card-text">Instrumental renditions on guitar, violin, flute, workstation keyboard.</p>
+        </div>
+        <div class="left">
+            <img class="tile-image" src="./assets/SVG/Cycling.svg" alt="Cycling img">
+            <p class="card-text">Cycling, with the objective to boost my cardiovascular health.</p>
+        </div>
+        <div class="left">
+            <img class="tile-image" src="./assets/SVG/Reading.svg" alt="Reading img">
+            <p class="card-text">Reading, a valuable skill that helps me to improve my vocabulary, expand my knowledge, and enhance my critical thinking abilities.</p>
+        </div>
+        <div class="left">
+            <img class="tile-image" src="./assets/SVG/Swimming.svg" alt="Swimming img">
+            <p class="card-text">Swimming, my go-to way to relax and exercise. There's nothing like the feeling of gliding through the water.</p>
+        </div>
+    </div>
+</body>
+
+</html>

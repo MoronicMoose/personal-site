@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Assignments</title>
+    <link href="./css/Local_bootstrap_copy.css" rel="stylesheet">
+    <style>
+        body{
+          background-color: #9DB2BF;
+        }
+        .text-center, .bg-body-tertiary {
+            background-color: #9DB2BF !important;
+        }
+        
+        .bd-placeholder-img, .shadow-sm{
+          width: 100%;
+          height: 400px;
+          overflow: hidden;
+        }
+
+        .card, .shadow-sm {
+          border: #27374D solid 1px;
+          border-radius: 5%;
+        }
+        
+        .card, .shadow-sm img{
+          width: 100%;
+          object-fit: cover;
+          transition: all .3s ease-in-out;
+        }
+
+        .card img:hover {
+          transform: scale(1.05);
+        }
+
+        .card-body:hover{
+          font-weight: bold;
+          background-color: #9DB2BF;
+        }
+
+        body > .container2{
+          position: fixed;
+          left: 94%;
+        }
+
+        .container2 .tooltiptext {
+          visibility: hidden;
+          width: 120px;
+          color: black;
+          text-align: center;
+          padding: 1%;
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+          
+          /* Position the tooltip */
+          position: absolute;
+        }
+        .container2 > img:hover{
+            opacity: 50%;
+        }
+        .container2:hover .tooltiptext{
+          visibility: visible;
+          opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <span class="pt-4 container2">
+        <span class="tooltiptext">Previous Page</span>
+        <img src="./assets/SVG/caret-left.svg" id="prv-pg" alt="previous page" height="100px"
+            onclick="location.href='./Intro.html';" style="cursor: pointer;">
+    </span>
+
+    <section class="py-1 text-center container pt-5">
+      <div class="row py-lg-1">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-semibold"><font style="vertical-align: inherit;"><font style="vertical-align: inherit; color: black;">My Assignments!</font></font></h1>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-body-tertiary">
+        <div class="container">
+    
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-5">
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Mondrian Assignment.jpeg" alt="Mondrian Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./Mondrian Example.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Mondrian Project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Tin Dog Assignment.jpeg" alt="TinDog Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./TinDog.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Tindog Project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Pricing Table.jpeg" alt="Pricing Table Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./Pricing Table.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Pricing Table Project.</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Design Agency.jpeg" alt="Design Agency Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./Web Design Agency.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Design Agency Project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Motivational Meme.jpeg" alt="Design Agency Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./Motivational Meme.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Motivational Meme Project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <!-- <svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false" _mstaria-label="4468347" _mstHash="18" style="direction: ltr; text-align: left;"><title _mstTextHash="177515" _mstHash="19">Placeholder</title><rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%" fill="#eceeef" dy=".3em" _mstTextHash="134056" _mstHash="20">Thumbnail</text></svg> -->
+                <img class="bd-placeholder-img card-img-top" width="100%" height="225" src="./assets/images/Color Vocab.jpeg" alt="Design Agency Task" role="img" aria-label="Placeholder: thumbnail" preserveAspectRatio="xMidYMid slice" >
+                <div class="card-body" onclick="location.href='./Color Vocab.html';" style="cursor: pointer;">
+                  <p class="card-text" _msttexthash="9321065" _msthash="21" style="direction: ltr; text-align: center;">Color Vocab Project.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+
+</html>
